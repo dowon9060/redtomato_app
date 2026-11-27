@@ -1,7 +1,7 @@
-import { Text } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import { Ionicons } from "@expo/vector-icons";
 import { HomeScreen } from "../screens/HomeScreen";
 import { MenuListScreen } from "../screens/MenuListScreen";
 import { MenuDetailScreen } from "../screens/MenuDetailScreen";
@@ -44,20 +44,23 @@ function Tabs() {
         },
         tabBarIcon: ({ color, size, focused }) => {
           const iconSize = size ?? 22;
-          if (route.name === "HomeTab") {
-            return (
-              <Text style={{ fontSize: iconSize, color }}>
-                {focused ? "🏠" : "🏡"}
-              </Text>
-            );
-          }
-          if (route.name === "OrdersTab") {
-            return <Text style={{ fontSize: iconSize }}>📋</Text>;
-          }
-          if (route.name === "CartTab") {
-            return <Text style={{ fontSize: iconSize }}>🛒</Text>;
-          }
-          return <Text style={{ fontSize: iconSize }}>👤</Text>;
+          const name =
+            route.name === "HomeTab"
+              ? focused
+                ? "home"
+                : "home-outline"
+              : route.name === "OrdersTab"
+                ? focused
+                  ? "receipt"
+                  : "receipt-outline"
+                : route.name === "CartTab"
+                  ? focused
+                    ? "cart"
+                    : "cart-outline"
+                  : focused
+                    ? "person"
+                    : "person-outline";
+          return <Ionicons name={name} size={iconSize} color={color} />;
         },
       })}
     >

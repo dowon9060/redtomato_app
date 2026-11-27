@@ -46,6 +46,14 @@ const menuMap: Record<string, number> = {
 
 export const logoImage = require("../../assets/brand/logo.jpg");
 
+const storeImages: number[] = [
+  require("../../assets/stores/store1.jpg"),
+  require("../../assets/stores/store2.jpg"),
+  require("../../assets/stores/store3.jpg"),
+  require("../../assets/stores/store4.jpg"),
+  require("../../assets/stores/store5.jpg"),
+];
+
 export function resolveBannerImage(key: string): number {
   return bannerMap[key] ?? bannerMap["banner1.jpg"];
 }
@@ -53,4 +61,9 @@ export function resolveBannerImage(key: string): number {
 export function resolveMenuImage(key?: string | null): number | null {
   if (!key) return null;
   return menuMap[key] ?? null;
+}
+
+export function resolveStoreImage(storeId: number): number {
+  const index = Math.abs(storeId) % storeImages.length;
+  return storeImages[index];
 }

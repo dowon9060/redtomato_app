@@ -1,0 +1,11 @@
+{
+  "name": "redtomato-app",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "mobile": "npm --prefix mobile start",
+    "api": "npm --prefix backend-cf run dev",
+    "api:migrate": "npm --prefix backend-cf run db:migrate:local",
+    "api:seed": "npm --prefix backend-cf run db:seed:local"
+  }
+}

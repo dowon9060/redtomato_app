@@ -1,0 +1,13 @@
+name = "redtomato-pickup-api"
+main = "src/index.ts"
+compatibility_date = "2025-11-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "redtomato-pickup"
+database_id = "00000000-0000-0000-0000-000000000001"
+migrations_dir = "migrations"
+
+[vars]
+APP_NAME = "빨간토마토피자 포장주문"
+JWT_SECRET = "dev-change-me-in-production"

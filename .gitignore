@@ -1,0 +1,16 @@
+node_modules/
+.expo/
+dist/
+web-build/
+.wrangler/
+.dev.vars
+*.local
+.DS_Store
+.env
+.env.*
+!.env.example
+mobile/.expo/
+backend-cf/.wrangler/
+*.log
+mobile/.ui-check.png
+mobile/.expo-android-check.png

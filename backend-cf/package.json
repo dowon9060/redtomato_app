@@ -1,0 +1,22 @@
+{
+  "name": "backend-cf",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:migrate:local": "wrangler d1 migrations apply redtomato-pickup --local",
+    "db:migrate:remote": "wrangler d1 migrations apply redtomato-pickup --remote",
+    "db:seed:local": "wrangler d1 execute redtomato-pickup --local --file=./seed/seed.sql",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "hono": "^4.12.7"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260317.1",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.76.0"
+  }
+}

@@ -1,0 +1,964 @@
+{
+  "stores": [
+    {
+      "id": 10,
+      "name": "나주 혁신점(본사 직영점)",
+      "address": "전라남도 나주시 빛가람동 203-4 (110호)",
+      "phone": "061-333-3706",
+      "hours": "11:00 – 23:00",
+      "holiday": "연중무휴",
+      "lat": 35.01999,
+      "lng": 126.78947,
+      "isOpen": true
+    },
+    {
+      "id": 1,
+      "name": "효천점",
+      "address": "광주광역시 남구 효천2로가길 21",
+      "phone": "062-651-0447",
+      "hours": "11:00 – 23:00",
+      "holiday": "연중무휴",
+      "lat": 35.10142,
+      "lng": 126.87517,
+      "isOpen": true
+    },
+    {
+      "id": 2,
+      "name": "광주서구점",
+      "address": "광주광역시 서구 화정로85번길 11",
+      "phone": "062-381-0444",
+      "hours": "11:00 – 23:00",
+      "holiday": "연중무휴",
+      "lat": 35.14565,
+      "lng": 126.86664,
+      "isOpen": true
+    },
+    {
+      "id": 3,
+      "name": "광주북구점",
+      "address": "광주광역시 북구 자미로66번길 17",
+      "phone": "062-512-4445",
+      "hours": "11:00 – 23:00",
+      "holiday": "연중무휴",
+      "lat": 35.17161,
+      "lng": 126.90562,
+      "isOpen": true
+    },
+    {
+      "id": 4,
+      "name": "광주광산점",
+      "address": "광주광역시 광산구 풍영로101번안길 3-1",
+      "phone": "062-961-0083",
+      "hours": "11:00 – 23:00",
+      "holiday": "연중무휴",
+      "lat": 35.18087,
+      "lng": 126.81101,
+      "isOpen": true
+    },
+    {
+      "id": 5,
+      "name": "광주첨단점",
+      "address": "광주광역시 북구 첨단연신로91번길 44",
+      "phone": "062-574-5544",
+      "hours": "11:00 – 23:00",
+      "holiday": "연중무휴",
+      "lat": 35.20627,
+      "lng": 126.8625,
+      "isOpen": true
+    },
+    {
+      "id": 6,
+      "name": "화순점",
+      "address": "전남 화순군 화순읍 자치샘로 60-1",
+      "phone": "061-375-8245",
+      "hours": "11:00 – 23:00",
+      "holiday": "연중무휴",
+      "lat": 35.0629,
+      "lng": 126.98385,
+      "isOpen": true
+    },
+    {
+      "id": 7,
+      "name": "용인1호점",
+      "address": "경기도 용인시 처인구 김량장동 516",
+      "phone": "031-321-2915",
+      "hours": "11:00 – 23:00",
+      "holiday": "연중무휴",
+      "lat": 37.23399,
+      "lng": 127.20298,
+      "isOpen": true
+    },
+    {
+      "id": 8,
+      "name": "고흥점",
+      "address": "전남 고흥군 봉래면 축정2길 79-3",
+      "phone": "061-833-9981",
+      "hours": "11:00 – 23:00",
+      "holiday": "연중무휴",
+      "lat": 34.45182,
+      "lng": 127.47947,
+      "isOpen": true
+    },
+    {
+      "id": 9,
+      "name": "남동점",
+      "address": "광주광역시 동구 금동 211-31 (1층)",
+      "phone": "062-222-3706",
+      "hours": "11:00 – 23:00",
+      "holiday": "연중무휴",
+      "lat": 35.14321,
+      "lng": 126.91775,
+      "isOpen": true
+    },
+    {
+      "id": 11,
+      "name": "대촌점",
+      "address": "광주광역시 남구 지석동 179-5 (1층)",
+      "phone": "062-372-8505",
+      "hours": "11:00 – 23:00",
+      "holiday": "연중무휴",
+      "lat": 35.08256,
+      "lng": 126.83382,
+      "isOpen": true
+    },
+    {
+      "id": 12,
+      "name": "대전1호점",
+      "address": "대전광역시 서구 갈마동 1211 1층 102호",
+      "phone": "0508-8194-1714",
+      "hours": "11:00 – 23:00",
+      "holiday": "연중무휴",
+      "lat": 36.34828,
+      "lng": 127.37185,
+      "isOpen": true
+    },
+    {
+      "id": 13,
+      "name": "여천점",
+      "address": "전라남도 여수시 신기동 129-1 (1층)",
+      "phone": "061-681-2134",
+      "hours": "11:00 – 23:00",
+      "holiday": "연중무휴",
+      "lat": 34.76291,
+      "lng": 127.67833,
+      "isOpen": true
+    },
+    {
+      "id": 14,
+      "name": "목포1호점",
+      "address": "전라남도 목포시 석현동 816-62 (1층)",
+      "phone": "",
+      "hours": "11:00 – 23:00",
+      "holiday": "연중무휴",
+      "lat": 34.82409,
+      "lng": 126.42521,
+      "isOpen": true
+    },
+    {
+      "id": 15,
+      "name": "홍은점",
+      "address": "서울특별시 서대문구 거북골로 8-10 1층(홍은동)",
+      "phone": "02-303-9122",
+      "hours": "24시간",
+      "holiday": "연중무휴",
+      "lat": 37.57792,
+      "lng": 126.9225,
+      "isOpen": true
+    }
+  ],
+  "groups": [
+    {
+      "id": "signature",
+      "label": "신메뉴",
+      "category": "pizza"
+    },
+    {
+      "id": "best",
+      "label": "베스트 피자",
+      "category": "pizza"
+    },
+    {
+      "id": "luxury",
+      "label": "럭셔리 피자",
+      "category": "pizza"
+    },
+    {
+      "id": "special",
+      "label": "스페셜 피자",
+      "category": "pizza"
+    },
+    {
+      "id": "original",
+      "label": "오리지널 피자",
+      "category": "pizza"
+    },
+    {
+      "id": "half",
+      "label": "반반 · 네가지",
+      "category": "pizza"
+    },
+    {
+      "id": "set",
+      "label": "세트 메뉴",
+      "category": "setDeal"
+    },
+    {
+      "id": "side",
+      "label": "사이드 메뉴",
+      "category": "side"
+    },
+    {
+      "id": "drink",
+      "label": "음료",
+      "category": "side"
+    }
+  ],
+  "menus": [
+    {
+      "id": "signature-1",
+      "groupId": "signature",
+      "name": "베이컨체다쉬림프",
+      "description": "베이컨과 체다치즈, 통새우가 어우러진 시그니처 피자예요.",
+      "imageKey": "signature/bacon-shrimp.jpg",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 26900
+        },
+        {
+          "size": "L",
+          "price": 28900
+        }
+      ]
+    },
+    {
+      "id": "signature-2",
+      "groupId": "signature",
+      "name": "쉬림프큐브스테이크",
+      "description": "통새우와 큐브 스테이크를 올린 풍성한 피자예요.",
+      "imageKey": "signature/shrimp-cube-steak.jpg",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 26900
+        },
+        {
+          "size": "L",
+          "price": 28900
+        }
+      ]
+    },
+    {
+      "id": "signature-3",
+      "groupId": "signature",
+      "name": "스윗고구마무스",
+      "description": "달콤한 고구마 무스가 부드러운 시그니처 피자예요.",
+      "imageKey": "signature/sweet-potato.jpg",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 25900
+        },
+        {
+          "size": "L",
+          "price": 27900
+        }
+      ]
+    },
+    {
+      "id": "signature-4",
+      "groupId": "signature",
+      "name": "체다치즈후라이",
+      "description": "바삭한 프라이와 체다치즈의 조합이 매력적인 피자예요.",
+      "imageKey": "signature/cheddar-fries.jpg",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 26900
+        },
+        {
+          "size": "L",
+          "price": 28900
+        }
+      ]
+    },
+    {
+      "id": "signature-5",
+      "groupId": "signature",
+      "name": "핫칠리쉬림프올인",
+      "description": "매콤한 핫칠리 소스와 쉬림프를 듬뿍 올린 피자예요.",
+      "imageKey": "signature/hot-chili-shrimp.jpg",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 26900
+        },
+        {
+          "size": "L",
+          "price": 28900
+        }
+      ]
+    },
+    {
+      "id": "signature-pending-1",
+      "groupId": "signature",
+      "name": "화이트갈릭",
+      "description": "화이트 갈릭 소스 기반의 담백한 피자예요.",
+      "imageKey": "",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 21900
+        },
+        {
+          "size": "L",
+          "price": 24900
+        }
+      ]
+    },
+    {
+      "id": "signature-pending-2",
+      "groupId": "signature",
+      "name": "화이트파인불고기",
+      "description": "화이트 파인과 불고기가 만난 피자예요.",
+      "imageKey": "",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 26900
+        },
+        {
+          "size": "L",
+          "price": 28900
+        }
+      ]
+    },
+    {
+      "id": "signature-pending-3",
+      "groupId": "signature",
+      "name": "수제직화불갈비",
+      "description": "직화로 구운 불갈비 토핑의 피자예요.",
+      "imageKey": "",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 26900
+        },
+        {
+          "size": "L",
+          "price": 28900
+        }
+      ]
+    },
+    {
+      "id": "signature-pending-4",
+      "groupId": "signature",
+      "name": "화이트파인쉬림프",
+      "description": "화이트 파인과 쉬림프의 조합 피자예요.",
+      "imageKey": "",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 26900
+        },
+        {
+          "size": "L",
+          "price": 28900
+        }
+      ]
+    },
+    {
+      "id": "best-1",
+      "groupId": "best",
+      "name": "베이컨리치골드",
+      "description": "베이컨을 듬뿍 올린 베스트 피자예요.",
+      "imageKey": "best/bacon-rich.jpg",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 27900
+        },
+        {
+          "size": "L",
+          "price": 29900
+        }
+      ]
+    },
+    {
+      "id": "best-2",
+      "groupId": "best",
+      "name": "스위트리치골드",
+      "description": "달콤한 풍미가 돋보이는 베스트 피자예요.",
+      "imageKey": "best/sweet-rich.jpg",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 27900
+        },
+        {
+          "size": "L",
+          "price": 29900
+        }
+      ]
+    },
+    {
+      "id": "best-3",
+      "groupId": "best",
+      "name": "스테이크불갈비",
+      "description": "스테이크와 불갈비 토핑의 베스트 피자예요.",
+      "imageKey": "best/steak-bulgalbi.jpg",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 27900
+        },
+        {
+          "size": "L",
+          "price": 29900
+        }
+      ]
+    },
+    {
+      "id": "luxury-pending-1",
+      "groupId": "luxury",
+      "name": "쉬림프골드",
+      "description": "고급 쉬림프 토핑의 럭셔리 피자예요.",
+      "imageKey": "",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 33900
+        },
+        {
+          "size": "L",
+          "price": 35900
+        }
+      ]
+    },
+    {
+      "id": "luxury-pending-2",
+      "groupId": "luxury",
+      "name": "씨푸드아일랜드",
+      "description": "해산물을 풍성하게 담은 럭셔리 피자예요.",
+      "imageKey": "",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 36900
+        },
+        {
+          "size": "L",
+          "price": 38900
+        }
+      ]
+    },
+    {
+      "id": "special-1",
+      "groupId": "special",
+      "name": "고구마리치골드",
+      "description": "고구마와 치즈가 조화로운 스페셜 피자예요.",
+      "imageKey": "special/goguma-rich.jpg",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 25900
+        },
+        {
+          "size": "L",
+          "price": 27900
+        }
+      ]
+    },
+    {
+      "id": "special-2",
+      "groupId": "special",
+      "name": "매콤불고기",
+      "description": "매콤한 불고기 토핑의 스페셜 피자예요.",
+      "imageKey": "special/spicy-bulgogi.jpg",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 25900
+        },
+        {
+          "size": "L",
+          "price": 27900
+        }
+      ]
+    },
+    {
+      "id": "special-3",
+      "groupId": "special",
+      "name": "베이컨체다",
+      "description": "베이컨과 체다치즈의 클래식한 조합이에요.",
+      "imageKey": "special/bacon-cheddar.jpg",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 25900
+        },
+        {
+          "size": "L",
+          "price": 27900
+        }
+      ]
+    },
+    {
+      "id": "special-4",
+      "groupId": "special",
+      "name": "토마토스페셜",
+      "description": "신선한 토마토 풍미가 살아있는 피자예요.",
+      "imageKey": "special/tomato-special.jpg",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 25900
+        },
+        {
+          "size": "L",
+          "price": 27900
+        }
+      ]
+    },
+    {
+      "id": "special-5",
+      "groupId": "special",
+      "name": "포테이토리치골드",
+      "description": "포테이토를 풍성하게 올린 스페셜 피자예요.",
+      "imageKey": "special/potato.jpg",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 25900
+        },
+        {
+          "size": "L",
+          "price": 27900
+        }
+      ]
+    },
+    {
+      "id": "special-pending-1",
+      "groupId": "special",
+      "name": "하와이언리치골드",
+      "description": "파인애플과 햄이 어우러진 피자예요.",
+      "imageKey": "",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 25900
+        },
+        {
+          "size": "L",
+          "price": 27900
+        }
+      ]
+    },
+    {
+      "id": "original-1",
+      "groupId": "original",
+      "name": "불고기",
+      "description": "정통 불고기 토핑의 오리지널 피자예요.",
+      "imageKey": "original/bulgogi.jpg",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 21900
+        },
+        {
+          "size": "L",
+          "price": 24900
+        }
+      ]
+    },
+    {
+      "id": "original-2",
+      "groupId": "original",
+      "name": "야채",
+      "description": "신선한 야채를 올린 가벼운 피자예요.",
+      "imageKey": "original/vegetable.jpg",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 21900
+        },
+        {
+          "size": "L",
+          "price": 24900
+        }
+      ]
+    },
+    {
+      "id": "original-3",
+      "groupId": "original",
+      "name": "이탈리언",
+      "description": "이탈리안 스타일 토핑의 피자예요.",
+      "imageKey": "original/italian.jpg",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 21900
+        },
+        {
+          "size": "L",
+          "price": 24900
+        }
+      ]
+    },
+    {
+      "id": "original-4",
+      "groupId": "original",
+      "name": "컴비네이션",
+      "description": "다양한 토핑이 조화로운 클래식 피자예요.",
+      "imageKey": "original/combination.jpg",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 21900
+        },
+        {
+          "size": "L",
+          "price": 24900
+        }
+      ]
+    },
+    {
+      "id": "original-5",
+      "groupId": "original",
+      "name": "페파로니",
+      "description": "페퍼로니의 매콤한 풍미가 일품인 피자예요.",
+      "imageKey": "original/pepperoni.jpg",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 21900
+        },
+        {
+          "size": "L",
+          "price": 24900
+        }
+      ]
+    },
+    {
+      "id": "original-pending-1",
+      "groupId": "original",
+      "name": "하와이언",
+      "description": "파인애플과 햄의 상큼한 조합이에요.",
+      "imageKey": "",
+      "priceRows": [
+        {
+          "size": "M",
+          "price": 21900
+        },
+        {
+          "size": "L",
+          "price": 24900
+        }
+      ]
+    },
+    {
+      "id": "half-1",
+      "groupId": "half",
+      "name": "스페셜4가지맛",
+      "description": "스페셜 라인 4가지 맛을 한 판에 즐겨요.",
+      "imageKey": "half/four-special.jpg",
+      "priceRows": [
+        {
+          "size": "L",
+          "price": 31900
+        }
+      ]
+    },
+    {
+      "id": "half-2",
+      "groupId": "half",
+      "name": "오리지널4가지맛",
+      "description": "오리지널 라인 4가지 맛을 한 판에 즐겨요.",
+      "imageKey": "half/four-original.jpg",
+      "priceRows": [
+        {
+          "size": "L",
+          "price": 28900
+        }
+      ]
+    },
+    {
+      "id": "half-3",
+      "groupId": "half",
+      "name": "반반피자",
+      "description": "원하는 두 가지 맛을 반반으로 주문해요.",
+      "imageKey": "half/half-half.jpg",
+      "priceRows": [
+        {
+          "size": "L",
+          "price": 28900
+        }
+      ]
+    },
+    {
+      "id": "set-1",
+      "groupId": "set",
+      "name": "피자+피자+콜라(1.25L)",
+      "description": "피자 2판과 콜라 1.25L 세트예요.",
+      "imageKey": "set/set-a.jpg",
+      "priceRows": [
+        {
+          "size": "L",
+          "price": 35900
+        }
+      ]
+    },
+    {
+      "id": "set-2",
+      "groupId": "set",
+      "name": "피자+피자+콜라(1.25L) 리치골드",
+      "description": "리치골드 피자 2판과 콜라 세트예요.",
+      "imageKey": "set/set-b.jpg",
+      "priceRows": [
+        {
+          "size": "L",
+          "price": 41900
+        }
+      ]
+    },
+    {
+      "id": "set-3",
+      "groupId": "set",
+      "name": "세트C",
+      "description": "매장별 구성의 세트 메뉴예요.",
+      "imageKey": "set/set-c.jpg",
+      "priceRows": [
+        {
+          "size": "",
+          "price": 37900
+        }
+      ]
+    },
+    {
+      "id": "set-4",
+      "groupId": "set",
+      "name": "세트D",
+      "description": "매장별 구성의 세트 메뉴예요.",
+      "imageKey": "set/set-d.jpg",
+      "priceRows": [
+        {
+          "size": "",
+          "price": 37900
+        }
+      ]
+    },
+    {
+      "id": "set-5",
+      "groupId": "set",
+      "name": "세트E",
+      "description": "매장별 구성의 세트 메뉴예요.",
+      "imageKey": "set/set-e.jpg",
+      "priceRows": [
+        {
+          "size": "",
+          "price": 37900
+        }
+      ]
+    },
+    {
+      "id": "side-1",
+      "groupId": "side",
+      "name": "버팔로스틱(5p)",
+      "description": "매콤한 버팔로 스틱 5조각이에요.",
+      "imageKey": "side/buffalo-stick.jpg",
+      "priceRows": [
+        {
+          "size": "",
+          "price": 7000
+        }
+      ]
+    },
+    {
+      "id": "side-2",
+      "groupId": "side",
+      "name": "새우링(4p)",
+      "description": "바삭한 새우링 4조각이에요.",
+      "imageKey": "side/shrimp-ring.jpg",
+      "priceRows": [
+        {
+          "size": "",
+          "price": 6000
+        }
+      ]
+    },
+    {
+      "id": "side-3",
+      "groupId": "side",
+      "name": "웨지감자(1인분)",
+      "description": "겉은 바삭하고 속은 부드러운 웨지감자예요.",
+      "imageKey": "side/wedge-potato.jpg",
+      "priceRows": [
+        {
+          "size": "",
+          "price": 6000
+        }
+      ]
+    },
+    {
+      "id": "side-4",
+      "groupId": "side",
+      "name": "치즈오븐스파게티",
+      "description": "치즈를 올린 오븐 스파게티예요.",
+      "imageKey": "side/cheese-spaghetti.jpg",
+      "priceRows": [
+        {
+          "size": "",
+          "price": 8000
+        }
+      ]
+    },
+    {
+      "id": "side-5",
+      "groupId": "side",
+      "name": "치즈스틱(5p)",
+      "description": "쭉 늘어나는 치즈스틱 5조각이에요.",
+      "imageKey": "side/cheese-stick.jpg",
+      "priceRows": [
+        {
+          "size": "",
+          "price": 7000
+        }
+      ]
+    },
+    {
+      "id": "side-6",
+      "groupId": "side",
+      "name": "해시브라운(4p)",
+      "description": "고소한 해시브라운 4조각이에요.",
+      "imageKey": "side/hash-brown.jpg",
+      "priceRows": [
+        {
+          "size": "",
+          "price": 6000
+        }
+      ]
+    },
+    {
+      "id": "side-pending-1",
+      "groupId": "side",
+      "name": "크림스파게티",
+      "description": "부드러운 크림 소스 스파게티예요.",
+      "imageKey": "",
+      "priceRows": [
+        {
+          "size": "",
+          "price": 9000
+        }
+      ]
+    },
+    {
+      "id": "side-pending-2",
+      "groupId": "side",
+      "name": "로제스파게티",
+      "description": "토마토와 크림이 만난 로제 스파게티예요.",
+      "imageKey": "",
+      "priceRows": [
+        {
+          "size": "",
+          "price": 8000
+        }
+      ]
+    },
+    {
+      "id": "drink-1",
+      "groupId": "drink",
+      "name": "콜라",
+      "description": "시원한 콜라예요.",
+      "imageKey": "drink/cola.jpg",
+      "priceRows": [
+        {
+          "size": "1.25L",
+          "price": 4500
+        },
+        {
+          "size": "500㎖",
+          "price": 3500
+        }
+      ]
+    },
+    {
+      "id": "drink-2",
+      "groupId": "drink",
+      "name": "스프라이트 또는 칠성사이다",
+      "description": "청량한 사이다예요.",
+      "imageKey": "drink/cider.jpg",
+      "priceRows": [
+        {
+          "size": "1.25L",
+          "price": 4500
+        },
+        {
+          "size": "500㎖",
+          "price": 3500
+        }
+      ]
+    },
+    {
+      "id": "drink-3",
+      "groupId": "drink",
+      "name": "얼음컵",
+      "description": "포장 주문용 얼음컵이에요.",
+      "imageKey": "drink/ice-cup.jpg",
+      "priceRows": [
+        {
+          "size": "",
+          "price": 2500
+        }
+      ]
+    },
+    {
+      "id": "drink-pending-1",
+      "groupId": "drink",
+      "name": "제로콜라",
+      "description": "제로 칼로리 콜라예요.",
+      "imageKey": "",
+      "priceRows": [
+        {
+          "size": "1.25L",
+          "price": 4700
+        },
+        {
+          "size": "500㎖",
+          "price": 3500
+        }
+      ]
+    }
+  ],
+  "banners": [
+    {
+      "id": 1,
+      "title": "오늘의 포장 혜택",
+      "subtitle": "가까운 매장에서 포장 주문해요",
+      "imageKey": "banner1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "시그니처 신메뉴",
+      "subtitle": "베이컨체다쉬림프를 만나 보세요",
+      "imageKey": "banner2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "세트 메뉴",
+      "subtitle": "피자 두 판을 더 합리적으로",
+      "imageKey": "banner3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "베스트 피자",
+      "subtitle": "단골이 찾는 인기 메뉴",
+      "imageKey": "banner4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "입점 문의",
+      "subtitle": "빨간토마토피자와 함께해요",
+      "imageKey": "banner5.jpg"
+    }
+  ]
+}

@@ -55,27 +55,22 @@ export function HomeScreen() {
             onPress={() => navigation.navigate("MenuList", {})}
           >
             <Text style={styles.mainEyebrow}>포장 주문</Text>
-            <View>
-              <Text style={styles.mainTitle}>메뉴보기</Text>
-              <Text style={styles.mainDesc}>
-                시그니처부터 사이드까지{"\n"}한눈에 고르세요
-              </Text>
-            </View>
+            <Text style={styles.mainTitle}>메뉴보기</Text>
+            <Text style={styles.mainDesc}>
+              시그니처부터 사이드까지{"\n"}한눈에 고르세요
+            </Text>
           </Pressable>
           <Pressable
             style={[styles.mainCard, styles.storeCard]}
             onPress={() => navigation.navigate("StoreList")}
           >
             <Text style={styles.mainEyebrow}>가까운 매장</Text>
-            <View>
-              <Text style={styles.mainTitle}>지점보기</Text>
-              <Text style={styles.mainDesc}>
-                영업시간과 연락처를{"\n"}확인하고 주문해요
-              </Text>
-            </View>
+            <Text style={styles.mainTitle}>지점보기</Text>
+            <Text style={styles.mainDesc}>
+              영업시간과 연락처를{"\n"}확인하고 주문해요
+            </Text>
           </Pressable>
         </View>
-        <View style={styles.cardsSpacer} />
       </View>
 
       <Pressable
@@ -104,23 +99,23 @@ const styles = StyleSheet.create({
   section: { paddingHorizontal: 16 },
   cardsArea: {
     flex: 1,
-    marginTop: 16,
-    marginBottom: 16,
+    justifyContent: "center",
+    marginTop: 8,
+    marginBottom: 8,
   },
   mainCards: {
-    flex: 4,
+    height: "80%",
     flexDirection: "row",
     gap: 12,
     paddingHorizontal: 16,
   },
-  cardsSpacer: {
-    flex: 1,
-  },
   mainCard: {
     flex: 1,
     borderRadius: 20,
-    padding: 18,
-    justifyContent: "space-between",
+    paddingHorizontal: 16,
+    paddingVertical: 20,
+    justifyContent: "center",
+    alignItems: "center",
   },
   menuCard: {
     backgroundColor: colors.tomato,
@@ -132,17 +127,21 @@ const styles = StyleSheet.create({
     color: "rgba(255,255,255,0.75)",
     fontSize: 12,
     fontWeight: "600",
+    textAlign: "center",
   },
   mainTitle: {
     color: colors.white,
     fontSize: 24,
     fontWeight: "800",
+    textAlign: "center",
+    marginTop: 10,
   },
   mainDesc: {
     color: "rgba(255,255,255,0.88)",
     fontSize: 13,
     lineHeight: 19,
     marginTop: 10,
+    textAlign: "center",
   },
   inquiryCard: {
     marginHorizontal: 16,
